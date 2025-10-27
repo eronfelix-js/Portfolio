@@ -8,13 +8,38 @@ import { Github, ExternalLink } from "lucide-react"
 export function Projects() {
   const projects = [
     {
+      title: "RIFA MAX",
+      description:
+        "Sistema completo de gerenciamento de rifas online com autenticação JWT, pagamentos PIX e upload de imagens.",
+      image: "/RIFAMAX.png",
+      technologies: ["Java", "Spring Boot", "PotgresSQL", "Spring Security","Claudinary","PicPay-API","Next.js","JUnit","EC2"],
+      githubUrl: "https://github.com/eronfelix-js/Rifa-Back-end",
+      liveUrl: "https://ecommerce-demo.vercel.app",
+    },
+    {
       title: "MovieFlix",
       description:
         "Uma aplicação desenvolvida em Java com Spring Boot, Spring Security, JWT e PostgreSQL, focada na gestão de catálogos de filmes.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/movieflix.png",
       technologies: ["Java", "Spring Boot", "PotgresSQL", "Spring Security"],
       githubUrl: "https://github.com/eronfelix-js/MovieFlix",
       liveUrl: "https://ecommerce-demo.vercel.app",
+    },
+    {
+      title: "User-email-send",
+      description: "user-email-send é um microserviço desenvolvido em Java/Spring Boot para estudos e prática de arquitetura de microsserviços.",
+      image: "/placeholder.svg?height=200&width=300",
+      technologies: ["Java", "RabbiMQ", "JavaMailSend", "PostgresSQL","Flyway","EC2"],
+      githubUrl: "https://github.com/eronfelix-js/user-email-send",
+      liveUrl: "https://dashboard-demo.vercel.app",
+    },
+    {
+      title: "🧺 Basket API",
+      description: "Uma API de cesta de compras (shopping cart) construída em Java (Spring Boot) com MongoDB para persistência e Redis para cache e sessões de carrinho.",
+      image: "/placeholder.svg?height=200&width=300",
+      technologies: ["Java", "Spring", "MongoDB", "Redis","Actuator"],
+      githubUrl: "https://github.com/eronfelix-js/BASKET",
+      liveUrl: "https://dashboard-demo.vercel.app",
     },
     {
       title: "Compras Já",

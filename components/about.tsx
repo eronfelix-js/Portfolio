@@ -9,7 +9,7 @@ export function About() {
             <div>
               <div className="w-64 h-64 mx-auto bg-gradient-to-br from-cyan-100 to-purple-100 rounded-full flex items-center justify-center">
                 <img
-                  src="/placeholder.svg?height=200&width=200"
+                  src="/file.png"
                   alt="Eron Felix"
                   className="w-48 h-48 rounded-full object-cover"
                 />
